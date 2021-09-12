@@ -1,0 +1,61 @@
+.calendar {
+  background: #ffffff;
+  padding: 15px;
+  width: 100%;
+  margin: 0 auto;
+  overflow: auto;
+}
+.btns button {
+  cursor: pointer;
+  display: inline-block;
+  zoom: 1;
+  background: pink;
+  color: #fff;
+  border-radius: 4px;
+  padding: 5px 10px;
+}
+.calendar__table {
+  border-collapse: collapse;
+  width: min-content;
+}
+.calendar__table th,
+.calendar__table td {
+  padding: 10px;
+  border: 1px solid #e2e2e2;
+  text-align: center;
+  vertical-align: top;
+}
+.date-picker.selected {
+  font-weight: bold;
+  color: #fff;
+  background: pink;
+}
+#title {
+  text-align: center;
+  width: 300px;
+}
+.btns {
+  margin-bottom: 1em;
+  overflow: hidden;
+  width: 300px;
+  display: flex;
+  justify-content: space-between;
+}
+.selects {
+  margin-top: 1em;
+  border-top: 1px solid #dadada;
+  padding: 10px 0;
+}
+.selects select {
+  cursor: pointer;
+  display: inline-block;
+  zoom: 1;
+  background: #ffffff;
+  color: #454545;
+  border: 1px solid #bfc5c5;
+  border-radius: 3px;
+  padding: 5px 1em;
+}
+.date-picker.selected span {
+  border-bottom: 2px solid white;
+}
