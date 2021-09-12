@@ -1,4 +1,17 @@
-    <div class="calendar">
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="ress.css" />
+    <link rel="stylesheet" href="style.css" />
+    <title>sample</title>
+  </head>
+
+  <body>
+
+<div class="calendar">
       <h4 id="title"></h4>
       <div class="btns">
         <button id="back">‹</button>
@@ -564,3 +577,6 @@
         return years;
       }
     </script>
+
+  </body>
+</html>
