@@ -1,4 +1,3 @@
-  <body>
     <div class="calendar">
       <h4 id="title"></h4>
       <div class="btns">
@@ -565,5 +564,3 @@
         return years;
       }
     </script>
-
-  </body>
